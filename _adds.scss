@@ -1,0 +1,23 @@
+.adds-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 85px;
+    margin-top: 96px;
+}
+
+@media screen and (max-width: 1300px) {
+    .adds-wrapper {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 555px) {
+    .adds-wrapper {
+        a {
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

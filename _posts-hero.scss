@@ -1,0 +1,91 @@
+.user-info {
+    h2 {
+        font-weight: 700;
+        font-size: 28px;
+        color: #592EA9;
+    }
+    p {
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        color: $desc-color;
+        margin-top: 3px;
+    }
+}
+
+.user-profil {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.h-posts-title {
+    width: 768px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    color: $pr-color;
+    padding: 24px 0;
+}
+
+.raket {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.hero-posts-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 128px;
+}
+.posts-hero-big-img {
+    margin-top: 80px;
+}
+
+@media screen and (max-width: 1300px) {
+    .posts-hero-big-img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 865px) {
+    .posts-h {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .h-posts-title {
+        width: 100%;
+        max-width: 468px;
+        font-size: 30px;
+    }
+    .hero-posts-wrapper  {
+        margin-top: 80px;
+    }
+    .posts-hero-big-img  {
+        margin-top: 50px;
+    }
+    .user-info {
+        h2 {
+            font-size: 18px;
+        }
+        p {
+            font-size: 13px;
+        }
+    }
+}
+
+@media screen and (max-width: 365px) {
+    .user-profil {
+        flex-direction: column;
+    }
+    .raket {
+        h3 {
+            font-size: 14px;
+        }
+    }
+}

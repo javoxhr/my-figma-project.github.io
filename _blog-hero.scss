@@ -1,0 +1,114 @@
+.b-hero-info {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: $pr-color;
+}
+
+.b-hero-title {
+    width: 664px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 38px;
+    color: $pr-color;
+    padding: 24px 0 16px;
+}
+
+.b-hero-date {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 8px 0;
+}
+
+.b-hero-desc {
+    width: 624px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: $desc-color;
+    margin-top: 16px;
+    line-height: 28px;
+}
+
+.b-hero-btn-wrap {
+    margin-top: 32px;
+    button {
+        font-weight: 700;
+        font-size: 18px;
+        color: $pr-color;
+        padding: 16px 48px;
+        border: none;
+        background-color: $btn-color;
+        cursor: pointer;
+        transition: .3s ease;
+    }
+    button:hover {
+        opacity: 0.9;
+    }
+    button:active {
+        box-shadow: 1px 1px 3px 1px $btn-color;
+    }
+}
+
+.blog-hero-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 121px;
+    padding: 80px 0;
+}
+.blog-hero {
+    background-color: rgba(244, 240, 248, 1);
+}
+.media {
+    display: none;
+}
+@media screen and (max-width: 1300px) {
+    .blog-hero-wrapper {
+        gap: 40px;
+        flex-direction: column;
+    }
+    .media {
+        display: flex;
+    }
+    .now-media {
+        display: none;
+    }
+    .blog-hero-wrapper {
+        text-align: center;
+        img {
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .b-hero-title {
+        width: 100%;
+        max-width: 600px;
+        text-align: center;
+        line-height: 50px;
+    }
+    .b-hero-desc {
+        width: 100%;
+        max-width: 623px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .b-hero-title {
+        font-size: 25px;
+    }
+    .b-hero-desc {
+        font-size: 14px;
+    }
+    .b-hero-btn-wrap {
+        button {
+            font-size: 13px;
+            padding: 10px 30px;
+        }
+    }
+    .blog-hero-wrapper {
+        padding: 20px 0;
+    }
+}

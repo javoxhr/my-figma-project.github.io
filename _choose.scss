@@ -1,0 +1,94 @@
+.choose-card-icon {
+    width: 48px;
+    height: 48px;
+    background-color: #FBF6EA;
+    border-radius: 10px;
+}
+.choose-card-title {
+    font-weight: 700;
+    font-size: 28px;
+    color: $pr-color;
+    margin-top: 16px;
+}
+.choose-card-desc {
+    width: 232px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: $desc-color;
+    margin-top: 5px;
+}
+
+.choose-card {
+    padding: 32px;
+    border: 2px solid rgb(215, 209, 209);
+    transition: .3s all;
+}
+
+.choose-card:hover {
+    background-color: #FFD050;
+    border: 2px solid $btn-color;
+}
+
+.choose-cards-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    margin-top: 48px;
+}
+
+.choose-title {
+    font-weight: 700;
+    font-size: 36px;
+    color: $pr-color;
+    text-align: center;
+}
+
+.choose {
+    padding: 10px 0 120px;
+}
+
+@media screen and (max-width: 1300px) {
+    .choose-cards-wrapper {
+        justify-content: center;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 750px) {
+    .choose {
+        padding: 128px 0 30px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .choose-title {
+        font-size: 25px;
+    }
+    .choose-cards-wrapper {
+        gap: 20px;
+    }
+}
+@media screen and (max-width: 362px) {
+    .choose-card {
+        width: 100%;
+    }
+    .choose-card-title {
+        width: 100%;
+        font-size: 20px;
+    }
+    .choose-card-desc  {
+        width: 100%;
+        max-width: 232px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 158px) {
+    .choose-card-desc {
+        margin-left: -20px;
+    }
+    .choose-card-title  {
+        margin-left: -20px;
+    }
+}

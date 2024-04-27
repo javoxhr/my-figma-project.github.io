@@ -1,0 +1,109 @@
+.my-posts-title {
+    font-weight: 700;
+    font-size: 48px;
+    color: $pr-color;
+}
+
+.my-posts-cart-text-wrapper {
+    a {
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        color: #592EA9;
+    }
+    h1 {
+        width: 100%;
+        max-width: 560px;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 48px;
+        color: $pr-color;
+        margin-top: 20px;
+    }
+    p {
+        width: 100%;
+        max-width: 580px;
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: $desc-color;
+        margin-top: 16px;
+    }
+}
+
+.my-posts-card {
+    display: flex;
+    align-items: center;
+    gap: 52px;
+}
+
+.my-posts-cards-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 60px;
+}
+.my-posts {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 100px 0;
+    }
+}
+
+@media screen and (max-width: 1135px) {
+    .my-posts {
+        .container {
+          padding: 80px 0;
+        }   
+    }
+    .my-posts-card  {
+        flex-direction: column;
+    }
+    .my-posts-cart-text-wrapper {
+        text-align: center;
+    }
+    .my-posts-title {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .my-posts {
+        .container {
+            padding: 50px 0 70px;
+        }
+    }
+    .my-posts-cart-text-wrapper  {
+        a {
+            font-size: 14px;
+        }
+        h1 {
+            font-size: 25px;
+        }
+        p {
+            font-size: 14px;
+            margin-top: 5px;
+        }
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+       .my-posts-card {
+        img {
+            width: 100%;
+            padding: 0 25px;
+        }
+    }
+    .my-posts-title  {
+        font-size: 30px;
+    }
+    .my-posts  {
+        .container {
+            padding: 45px 0 60px;
+        }
+    }
+}

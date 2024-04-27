@@ -1,0 +1,80 @@
+.read-title {
+    font-weight: 700;
+    font-size: 36px;
+    color: $pr-color;
+}
+
+.read-card-date-info {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #4C4C4C;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 32px;
+}
+
+.read-card-title {
+    width: 100%;
+    max-width: 405px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+    color: $pr-color;
+    padding: 16px 0;
+}
+
+.read-card-desc {
+    width: 100%;
+    max-width: 405px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: $pr-color;
+}
+
+.read-cards-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    margin-top: 64px;
+}
+
+.read {
+    padding: 128px 0;
+}
+
+@media screen and (max-width: 1300px) {
+    .read-cards-wrapper {
+        flex-direction: column;
+    }
+    .read-title {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .read-card {
+        img {
+            width: 100%;
+        }
+    }
+    .read-card-title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .read-card-desc {
+        font-size: 14px;
+    }
+    .read  {
+        padding: 40px 0;
+    }
+}
+
+@media screen and (max-width: 260px) {
+    .read-card-date-info {
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,73 @@
+.profil-users-title {
+    font-weight: 700;
+    font-size: 36px;
+    color: $pr-color;
+    text-align: center;
+}
+
+.profil-user-title {
+    font-weight: 700;
+    font-size: 28px;
+    color: $pr-color;
+    margin-top: 15px;
+}
+
+.profil-user-desc {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: $desc-color;
+    margin-top: 5px;
+}
+
+.profil-contacts-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.profil-user-card {
+    width: 300px;
+    padding: 40px 0 35px;
+    background-color: #F4F4F4;
+    text-align: center;
+    transition: .3s all;
+}
+.profil-user-card:hover {
+    background-color: #FBF6EA;
+}
+
+.profil-users-cards-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    margin-top: 48px;
+}
+
+@media screen and (max-width: 1285px) {
+    .profil-users-cards-wrapper  {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .profil-user-title {
+        width: 100%;
+        font-size: 20px;
+    }
+    .profil-user-desc {
+        font-size: 13px;
+    }
+    .profil-user-card {
+        img {
+            width: 100%;
+            max-width: 100px;
+        }
+    }
+    .profil-users-title {
+        font-size: 20px;
+    }
+}

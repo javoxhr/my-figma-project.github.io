@@ -1,0 +1,120 @@
+.two-color {
+    width: 843px;
+    height: 23px;
+    background: linear-gradient(to right,  #FFD050 70%, #592EA9 70%);
+    margin-left: auto;
+}
+
+.aboud-texts-name {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: $pr-color;
+}
+
+.aboud-texts-1-title {
+    width: 550px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    padding: 24px 0 16px;
+}
+
+.aboud-texts-1-desc {
+    width: 515px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: $desc-color;
+}
+.aboud-texts-1-btn {
+    font-weight: 700;
+    font-size: 18px;
+    color: #592EA9;
+    margin-top: 16px;
+    display: block;
+}
+
+.aboud-texts-2-title {
+    width: 481px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+    padding: 24px 0 16px;
+}
+
+.aboud-texts-2-desc {
+    width: 516px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: $desc-color;
+}
+
+.aboud-texts-wrapper {
+    display: flex;
+    gap: 61px;
+    padding: 96px 100px 96px 80px;
+    background-color: #F4F0F8;
+}
+.aboud {
+    padding: 128px 0;
+}
+@media screen and (max-width: 1285px) {
+    .aboud-texts-wrapper {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 50px 30px;
+    }
+    .two-color {
+        width: 100%;
+    }
+    .aboud-texts-1-title {
+        width: 100%;
+        max-width: 550px;
+    }
+    .aboud-texts-1-desc {
+        width: 100%;
+        max-width: 515px;
+    }
+    .aboud-texts-2-title  {
+        width: 100%;
+        max-width: 481px;
+    }
+    .aboud-texts-2-desc  {
+        width: 100%;
+        max-width: 516px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .aboud {
+        padding: 30px 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .aboud-texts-1-title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .aboud-texts-name  {
+        font-size: 13px;
+    }
+    .aboud-texts-1-btn {
+        font-size: 15px;
+    }
+    .aboud-texts-2-title {
+        font-size: 20px;
+    }
+    .aboud-texts-1-desc  {
+        font-size: 14px;
+    }
+    .aboud-texts-2-desc {
+        font-size: 14px;
+    }
+}

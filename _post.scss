@@ -1,0 +1,217 @@
+.post-left-title {
+    font-weight: 700;
+    font-size: 36px;
+    color: $pr-color;
+}
+.post-left-date {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 32px 0 16px;
+    display: block;
+    color: $pr-color;
+}
+.post-left-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.post-left-title-text {
+    width: 669px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+    color: $pr-color;
+}
+.post-left-desc {
+    width: 555px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: $desc-color;
+    padding: 16px 0 32px;
+}
+
+.post-left-btn {
+    button {
+        padding: 16px 48px;
+        font-weight: 700;
+        font-size: 16px;
+        background-color: $btn-color;
+        color: $pr-color;
+        cursor: pointer;
+        border: none;
+        transition: .3s ease;
+    }
+    button:hover {
+        opacity: 0.9;
+    }
+    button:active {
+        opacity: 0.8;
+        box-shadow: 1px 1px 5px 1px $btn-color;
+    }
+}
+
+.post-left-wrapper {
+    padding: 32px;
+    box-shadow: 0px 0px 3px 0px #b0b1b6;
+    margin-top: 32px;
+}
+
+.post-right-title {
+    font-weight: 700;
+    font-size: 36px;
+    color: $pr-color;
+}
+
+.post-right-a {
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: #592EA9;
+}
+
+.post-right-text-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.post-right-item-date {
+    font-family: "Inter", sans-serif; 
+    font-weight: 400;
+    font-size: 14px;
+    span {
+        color: #592EA9;
+    }
+}
+
+.post-right-item-title {
+    width: 369px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: $pr-color;
+    margin-top: 8px;
+}
+
+.post-right-item {
+    padding: 32px 115px 25px 32px;
+    transition: .2s ease;
+}
+.post-right-item:hover {
+    background-color: #FBF6EA;
+}
+
+.post-wrapper {
+    display: flex;
+    gap: 52px;
+    padding: 128px 0;
+}
+
+.post-right-items-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 1300px) {
+    .post-wrapper {
+        flex-direction: column;
+    }
+    .post-wrapper {
+        padding: 30px 0;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    .post-left-title-text {
+        width: 100%;
+        max-width: 669px;
+    }
+    .post-left-desc {
+        width: 100%;
+        max-width: 555px;
+    }
+    .post-right-item-title {
+        width: 100%;
+        max-width: 569px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .post-right-item  {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 20px 30px;
+    }
+    .post-left-title  {
+        font-size: 25px;
+    }
+    .post-left-title-text {
+        font-size: 20px;
+    }
+    .post-left-desc {
+        font-size: 14px;
+    }
+    .post-left-btn {
+        button {
+            padding: 10px 30px;
+            font-size: 15px;
+        }
+    }
+    .post-right-title {
+        font-size: 25px;
+    }
+    .post-right-a {
+        font-size: 14px;
+    }
+    .post-right-item-title {
+        font-size: 16px;
+    }
+    .post-right-item-date {
+        font-size: 12px;
+        span {
+            font-size: 12px;
+        }
+    }
+    .post-right-title  {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 260px) {
+    .post-left-btn {
+        button {
+            font-size: 12px;
+        }
+    }
+    .post-right-text-wrapper {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 255px) {
+    .post-left-btn {
+        button {
+            font-size: 12px;
+            padding: 7px 10px;
+        }
+    }
+}
+@media screen and (max-width: 185px) {
+    .post-left-title-text  {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 165px) {
+    .post-left-title-text  {
+        margin-left: -20px;
+    }
+    .post-left-desc {
+        margin-left: -20px;
+    }
+}

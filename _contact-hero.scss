@@ -1,0 +1,160 @@
+.contact-hero-info {
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    color: $pr-color;
+}
+
+.contact-hero-title {
+    font-weight: 700;
+    font-size: 48px;
+    color: $pr-color;
+    padding: 12px 0 15px;
+}
+
+.contact-hero-desc {
+    width: 100%;
+    max-width: 768px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: $desc-color;
+}
+
+.contact-hero-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.hours-info {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffffff;
+    opacity: 0.6;
+}
+
+.hours-linie {
+    width: 294px;
+    height: 2px;
+    background-color: #ffff;
+    opacity: 0.6;
+    display: block;
+    margin-top: 16px;
+}
+
+.working-hours {
+    width: 100%;
+    max-width: 768px;
+    background-color: #592EA9;
+    display: flex;
+    padding: 68px 300px 68px 70px;
+    gap: 52px;
+}
+
+.hours-title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffff;
+    width: 200px;
+    line-height: 30px;
+    margin-top: 16px;
+}
+
+.hours-desc {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 10px;
+    color: #ffff;
+    opacity: 0.6;
+}
+
+.contact-hero-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+    padding: 100px 0 50px;
+}
+.police-hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.plice-lorem {
+    padding: 80px 0 150px;
+} 
+@media screen and (max-width: 830px) {
+    .working-hours  {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 50px 40px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .contact-hero-wrapper {
+        padding: 50px 20px;
+    }
+    .hours-title {
+        width: 100%;
+    }
+    .hours-linie {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .working-hours {
+        align-items: flex-start;
+    }
+    .contact-hero-title {
+        font-size: 30px;
+    }
+    .contact-hero-info  {
+        font-weight: 600;
+        font-size: 14px;
+    }
+    .contact-hero-desc {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 310px) {
+    .hours-title{
+        width: 100%;
+        font-size: 14px;
+    }
+    .hours-desc {
+        width: 100%;
+        font-size: 12px;
+    }
+    .plice-lorem  {
+        padding: 0 0 60px;
+    }
+    .business-hero-wrapper {
+        h1 {
+            font-size: 25px;
+        }
+    }
+}
+
+@media screen and (max-width: 270px) {
+    .email-hours {
+        font-size: 7px;
+    }
+    .working-hours  {
+        padding: 20px;
+    }
+    .contact-hero-title {
+        font-size: 20px;
+    }
+    .contact-hero-desc {
+        font-size: 10px;
+    }
+}

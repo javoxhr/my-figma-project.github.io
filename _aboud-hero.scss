@@ -1,0 +1,118 @@
+.a-hero-top-left {
+    padding: 64px;
+    background-color: #fff;
+    h4 {
+        font-family: "Inter", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        color: $pr-color;
+    }
+    h1 {
+        width: 496px;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 64px;
+        color: $pr-color;
+        margin-top: 9px;
+    }
+}
+
+.a-hero-top-right {
+    p {
+        width: 477px;
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        color: #4C4C4C;
+        line-height: 28px;
+    }
+}
+
+.a-hero-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+.aboud-hero-item {
+    h1 {
+        font-weight: 700;
+        font-size: 56px;
+        color: $pr-color;
+    }
+    p {
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        color: $pr-color;
+    }
+}
+
+.aboud-hero-items-wrapper {
+    width: 630px;
+    background-color: #FFD050;
+    padding: 32px 48px;
+    display: flex;
+    align-items: center;
+    gap: 68px;
+}
+
+.liner-aboud {
+    width: 900px;
+    height: 20px;
+    background: linear-gradient(to left, #FFD050 70%, #592EA9 70%);
+    display: block;
+}
+
+.aboud-hero-position {
+    position: relative;
+}
+.aboud-hero-wrapper {
+    position: relative;
+}
+.aboud-liner-and-items {
+    position: absolute;
+    bottom: 4px;
+    left: 110px;
+}
+.a-hero-top {
+    position: relative;
+    top: 70px;
+    z-index: 1;
+}
+
+.mision-info {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: $pr-color;
+}
+
+.mision-title {
+    width: 100%;
+    max-width: 481px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+    color: $pr-color;
+    padding: 13px 0;
+}
+
+.mision-desc {
+    width: 516px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: $desc-color;
+    line-height: 28px;
+}
+
+.hero-aboud-mision {
+    display: flex;
+    align-items: center;
+    gap: 42px;
+    padding: 128px 100px 64px;
+    background-color: #F4F0F8;
+    margin-top: -10px;
+}
